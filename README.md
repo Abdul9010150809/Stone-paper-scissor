@@ -58,7 +58,7 @@ https://<your-github-username>.github.io/<repository-name>/
 ```
 
 🔗 Example:  
-[https://abdul9010150809.github.io/Stone-Paper-Scissor/](https://abdul9010150809.github.io/Stone-Paper-Scissor/)
+[https://abdul9010150809.github.io/Stone-paper-scissor/](https://abdul9010150809.github.io/Stone-paper-scissor/)
 
 ---
 
