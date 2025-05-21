@@ -1,4 +1,6 @@
-# ✊✋✌️ Stone Paper Scissor – Web Game
+const fs = require("fs");
+
+const content = `# ✊✋✌️ Stone Paper Scissor – Web Game
 
 Welcome to the **Stone Paper Scissor** game repository! This beginner-friendly project is built using **HTML**, **CSS**, and **JavaScript**, and features theme toggle, animations, score tracking, and more—all running completely in the browser with **no backend**.
 
@@ -24,7 +26,7 @@ This game lets you play the classic **Rock-Paper-Scissors** against the computer
 
 ## 📂 Project Structure
 
-```
+\`\`\`
 Stone-Paper-Scissor/
 │
 ├── index.html              # 🔧 Main HTML file
@@ -45,7 +47,7 @@ Stone-Paper-Scissor/
 └── .github/
     └── workflows/
         └── deploy.yml      # 🚀 GitHub Actions to deploy via GitHub Pages
-```
+\`\`\`
 
 ---
 
@@ -53,9 +55,9 @@ Stone-Paper-Scissor/
 
 Once deployed via GitHub Pages, access your game at:
 
-```
+\`\`\`
 https://<your-github-username>.github.io/<repository-name>/
-```
+\`\`\`
 
 🔗 Example:  
 [https://abdul9010150809.github.io/Stone-Paper-Scissor/](https://abdul9010150809.github.io/Stone-Paper-Scissor/)
@@ -65,13 +67,13 @@ https://<your-github-username>.github.io/<repository-name>/
 ## 🛠️ Getting Started
 
 1. **Clone the Repository**
-   ```bash
+   \`\`\`bash
    git clone https://github.com/yourusername/Stone-Paper-Scissor.git
    cd Stone-Paper-Scissor
-   ```
+   \`\`\`
 
 2. **Run the Game**
-   Just open `index.html` in any modern browser or use Live Server in VSCode.
+   Just open \`index.html\` in any modern browser or use Live Server in VSCode.
 
 3. **Play**
    - Click on rock/paper/scissor icons.
@@ -110,3 +112,7 @@ Got questions or feedback?
 ## ❤️ Built with Logic and Passion
 
 > Game on. Learn on. 🎮
+`;
+
+fs.writeFileSync("README.md", content);
+console.log("✅ README.md generated successfully!");
